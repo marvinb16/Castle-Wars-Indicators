@@ -7,10 +7,6 @@ import net.runelite.client.ui.overlay.infobox.InfoBoxPriority;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-/**
- * Simple infobox that shows "Balanced" / "Imbalanced".
- * Text color is the default (monochrome) — if you want colored text, consider a custom Overlay.
- */
 public class CastleWarsImbalanceInfoBox extends InfoBox
 {
     private String label = "Balanced";
