@@ -6,7 +6,6 @@ import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 
 import net.runelite.api.Client;
-import net.runelite.api.ChatMessageType;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.WidgetClosed;
 import net.runelite.api.events.WidgetLoaded;
@@ -24,10 +23,7 @@ import java.awt.image.BufferedImage;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Minimal, working version focused on the Imbalance InfoBox creation.
- * Includes your lobby detection & spawn-warning consolidation.
- */
+
 @Slf4j
 @PluginDescriptor(
 		name = "Castle Wars Improved"
@@ -348,7 +344,7 @@ public class CastleWarsImproved extends Plugin
 			return;
 		}
 
-		// Ensure the box exists while we're in the window
+		// Ensure the box exists
 		ensureImbalanceBox();
 		if (imbalanceBox == null)
 		{
