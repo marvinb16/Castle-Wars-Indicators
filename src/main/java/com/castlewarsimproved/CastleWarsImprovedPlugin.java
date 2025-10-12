@@ -28,7 +28,7 @@ import java.util.regex.Pattern;
 @PluginDescriptor(
 		name = "Castle Wars Improved"
 )
-public class CastleWarsImproved extends Plugin
+public class CastleWarsImprovedPlugin extends Plugin
 {
 	@Inject private Client client;
 	@Inject private CastleWarsImprovedConfig config;

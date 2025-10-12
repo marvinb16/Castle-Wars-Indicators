@@ -7,7 +7,7 @@ public class CastleWarsImprovedPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(CastleWarsImproved.class);
+		ExternalPluginManager.loadBuiltin(CastleWarsImprovedPlugin.class);
 		RuneLite.main(args);
 	}
 }
